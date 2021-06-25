@@ -23,7 +23,7 @@ email: aleksandrbazhin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   It's my personal site with memos and projects
 baseurl: "" # the subpath of your site, e.g. /blog
-domain: aleksandrbazhin.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+domain:        # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://aleksandbazhin.github.io
 # Build settings
 theme: minima
