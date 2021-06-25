@@ -3,16 +3,11 @@ layout: page
 title: About
 permalink: /about/
 ---
+Hi, my name is Aleksandr. Here are some of my profiles:
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+- [github.com/aleksandrbazhin](https://github.com/aleksandrbazhin)
+- [aleksandrbazhin.itch.io](https://aleksandrbazhin.itch.io/)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This site is the easiest way for me to post something I come up with.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+It is made with [jekyllrb.com](https://jekyllrb.com/) and hosted on github.pages.
