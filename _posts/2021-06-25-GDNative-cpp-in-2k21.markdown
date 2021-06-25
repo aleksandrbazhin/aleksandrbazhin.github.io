@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "How to organize and build your GDNative project with CMake and MinGW in 2k21"
-date:   2021-06-24 11:43:24 +0300
+title:  "How to build a GDNative project with CMake and MinGW in 2k21"
+date:   2021-06-25 17:50:00 +0300
 categories: godot
 ---
 
