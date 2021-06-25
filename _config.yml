@@ -18,10 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sometimes you have to post
-email: aleksandrbazhin@gmail.com
+title: Sometimes a man has to post
+# email: aleksandrbazhin@gmail.com
+# email: sometimes...
 description: >- # this means to ignore newlines until "baseurl:"
-  It's my personal site with memos and projects
+  Why not post on github.pages?
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: aleksandrbazhin.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://aleksandrbazhin.github.io
