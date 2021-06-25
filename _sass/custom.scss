@@ -1,6 +1,12 @@
 details {padding: 0px 0px 20px 48px !important;}
 details > summary {font-weight: bold!important;}
 .highlight{margin-bottom: 0px;}
-pre > code {white-space: pre-wrap !important;}
+$code_bg_color: #e0f0fd;
+
+pre, pre.highlight {background-color: $code_bg_color!important; border: none;}
+code, pre > code {white-space: pre-wrap !important; background-color:$code_bg_color!important;}
 .continue_list {margin-top: 20px;}
 ul > li > p {margin-top: 0px; margin-bottom: 0px;}
+
+.possible_errors {background-color: #ffe9e0; padding: 0 6px;}
+.possible_errors > code {background-color: #ffc7b0!important; border: none; font-weight: bold;}
