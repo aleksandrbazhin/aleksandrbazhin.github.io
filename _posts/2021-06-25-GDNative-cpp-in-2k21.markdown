@@ -379,3 +379,5 @@ At this point you should see your project running
 ## Final words
 
 That's more of a memo for myself, not to forget how to deal with errors that arise during the process. I am not super proficient with CMake, so the whole process caused a bit of trouble. There are some incorrect tutorials and obsolete sample projects out there, that won't work out-of-the-box now (June 2021). I went through all of the steps before posting (except for step 0) just to test that they work exactly as they are described.
+
+**Update:** If you want to leave a comment, leave it [**in this reddit post**](https://www.reddit.com/r/godot/comments/o7pak7/to_all_those_poor_souls_trying_to_follow_a/)
