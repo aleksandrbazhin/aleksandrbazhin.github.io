@@ -61,12 +61,10 @@ git init
 *.o
 *.a
 *.dll
-lib/*
 native/*/build/*
 
 # Godot-specific ignores
 logs/
-.import/
 godot/.import/
 godot/export.cfg
 godot/export_presets.cfg
