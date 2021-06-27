@@ -195,19 +195,19 @@ Cool, we now have the release version of godot-cpp library, which is around 5Mb 
 Another possible scenario for distributing .dlls separately is when some library dependency explicitly forbids embedding it into your binary. This is not the case for Godot obviously, but is, for example, the case for Qt.
 
 - Modify the CMakeLists.txt in **lib/godot-cpp/**. On line 172 replace:
-```
+```cmake
 add_library(${PROJECT_NAME} 
 ```
 with:
-```
+```cmake
 add_library(${PROJECT_NAME} SHARED
 ``` 
 - {:.continue_sub_list} Prepare build of godot-cpp release library
-```
+```bash
 cmake ../../.. -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER=g++ -DBITS=64 -DCMAKE_BUILD_TYPE=Release
 ```
 - {:.continue_sub_list} And build it
-```
+```bash
 cmake --build . -- -j4
 ```
 At this stage in lib/godot-cpp/bin there should be 3 libraries, 2 for static linking, **libgodot-cpp.windows.debug.64.a**, **libgodot-cpp.windows.debug.64.a** and **libgodot-cpp.windows.debug.64.dll** for dynamic.
