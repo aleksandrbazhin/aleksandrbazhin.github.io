@@ -303,9 +303,6 @@ endif(BUILD_SHARED)
 # that's just quick and dirty folder cleanup, actually CMake would detect what has changed
 file(REMOVE_RECURSE ${BUILD_PATH})
 file(MAKE_DIRECTORY  ${BUILD_PATH})
- 
-# so that CMake wouldn't send -out-implib to mingw to generate .dll.a library file
-unset(CMAKE_IMPORT_LIBRARY_SUFFIX)
 
 if(CMAKE_BUILD_TYPE MATCHES Release)
     add_definitions(-DNDEBUG)
