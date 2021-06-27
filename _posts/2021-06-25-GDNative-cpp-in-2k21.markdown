@@ -214,7 +214,7 @@ At this stage in lib/godot-cpp/bin there should be 3 libraries, 2 for static lin
 - {:.continue_list} Test GDNative as a dynamic library with a provided test project
     - {:.continue_sub_list}Copy all .dll dependencies to the **godot-cpp/test/bin/win64** folder:
         - our godot-cpp library **libgodot-cpp.windows.release.64.dll**
-        - gcc runtime dlls for mingw32 from mingw32 **bin/** folder (my mingw installation is in C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64)
+        - gcc runtime dlls for mingw32 from mingw32 **bin/win64** folder (my mingw installation is in C:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64)
             - **libstdc++-6.dll**
             - **libgcc_s_seh-1.dll**
             - **libwinpthread-1.dll** (to use threads possibly)
