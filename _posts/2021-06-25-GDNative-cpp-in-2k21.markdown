@@ -95,9 +95,9 @@ cd lib
     ```
     * {:.continue_sub_list}Add **godot-cpp** as submodule
     ```bash
-git submodule add https://github.com/godotengine/godot-cpp
+git submodule add -b 3.x https://github.com/godotengine/godot-cpp
     ```
-    * {:.continue_sub_list}The following downloads [https://github.com/godotengine/gpdot-headers](https://github.com/godotengine/gpdot-headers) dependency
+    * {:.continue_sub_list}The following also downloads [https://github.com/godotengine/godot-headers](https://github.com/godotengine/godot-headers) dependency
     ```bash
 git submodule update --init --recursive
     ```
